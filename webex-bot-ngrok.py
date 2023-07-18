@@ -32,7 +32,7 @@ import openai
 webserver_port = 4111
 webserver_debug = True
 # Put your BOT token in environment variable "MY_BOT_TOKEN" or replace the 4 lines below with: my_bot_token="your_bot_token"
-my_bot_token = "MmY2MGE0MDctMDgzYS00MDc5LTlhNjQtZGI1OTI0Yjg3YjBkZTNiNmVmYzgtYTY1_PF84_1eb65fdf-9643-417f-9974-ad72cae0e10f"
+my_bot_token = "WEBEX_TOKEN_BOT"
 if my_bot_token is None:
     print("**ERROR** environment variable 'MY_BOT_TOKEN' not set, stopping.")
     sys.exit(-1)
