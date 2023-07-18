@@ -97,7 +97,7 @@ def check_webhooks(ngrok_url):
 # |_| |_| |_| \___||___/|___/ \__,_| \__, | \___||___/  Messages
 #                                    |___/
 def chatgpt(message_obj):
-    API_KEY = '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'
+    API_KEY = 'API_KEY_GPT'
     openai.api_key = API_KEY
     print("2")
     question = message_obj
